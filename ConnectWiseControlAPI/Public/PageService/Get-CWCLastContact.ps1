@@ -7,7 +7,7 @@ function Get-CWCLastContact {
         [guid]$GUID,
         [parameter(ParameterSetName="Quiet")]
         [switch]$Quiet,
-        [int]$Seconds,
+        [int32]$Seconds,
         [string]$Group = 'All Machines'
     )
 

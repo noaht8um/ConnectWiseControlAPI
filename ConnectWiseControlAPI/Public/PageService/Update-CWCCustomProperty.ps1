@@ -4,7 +4,7 @@ function Update-CWCCustomProperty {
         [Parameter(Mandatory=$True)]
         [guid]$GUID,
         [Parameter(Mandatory=$True)]
-        [int]$Property,
+        [int32]$Property,
         [string]$Value,
         [string[]]$Group = 'All Machines'
     )

@@ -2,7 +2,7 @@ function Invoke-CWCWebRequest {
     [CmdletBinding()]
     param(
         $Arguments,
-        [int]$MaxRetry = 5
+        [int32]$MaxRetry = 5
     )
 
     # Check that we have cached connection info

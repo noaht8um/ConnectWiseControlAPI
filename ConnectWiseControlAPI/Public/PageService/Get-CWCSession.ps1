@@ -6,7 +6,7 @@ function Get-CWCSession {
         $Type,
         [string]$Group = 'All Machines',
         [string]$Search,
-        [int]$Limit
+        [int32]$Limit
     )
 
     $Endpoint = 'Services/PageService.ashx/GetHostSessionInfo'

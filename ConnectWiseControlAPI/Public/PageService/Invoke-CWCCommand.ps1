@@ -4,7 +4,7 @@ function Invoke-CWCCommand {
         [Parameter(Mandatory=$True)]
         [guid]$GUID,
         [string]$Command,
-        [int]$TimeOut = 10000,
+        [int32]$TimeOut = 10000,
         [switch]$PowerShell,
         [string]$Group = 'All Machines',
         [switch]$NoWait
